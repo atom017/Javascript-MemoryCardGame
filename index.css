@@ -7,6 +7,7 @@
 body{
     height: 100vh;
     background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+    overflow:hidden;
     
 }
 button{
