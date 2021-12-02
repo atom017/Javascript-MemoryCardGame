@@ -9,8 +9,7 @@ let firstCard,secondCard;
 let lockBoard = false;
 
 const audio = new Audio('audio/got-audio.mp3');
-audio.play();
-audio.loop = true;
+
 musicBox.addEventListener('change',(e) =>{
     if(e.target.checked){
         audio.play();
