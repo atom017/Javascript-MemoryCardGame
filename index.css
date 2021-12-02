@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+    
+}
+button{
+   display: block;
+   margin: 0 auto;
+   background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+   padding: 10px 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px #eee;
+   margin-bottom: 10px;
+   border: none;
+   color: #fff;
+   
+}
+
+
+h2{
+   text-align: center;
+    margin: 1.5rem auto;
+}
+
+.label{
+   display: block;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
+#on-off {
+    vertical-align: middle;
+    position: relative;
+   
+    margin-left: 0.5rem;
+}
+
+.memory-game{
+    width: 400px;
+    height: 400px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    perspective: 1000px;
+}
+
+.memory-card{
+    position: relative;
+    width: calc(25% - 10px);
+    height: calc(33.33% - 10px);
+    margin: 5px;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.memory-card:active{
+    transform:scale(.97);
+    transition: transform 0.5s;
+}
+
+.memory-card.flip{
+    transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #1e7eee;
+    backface-visibility: hidden;
+
+}
+
+.front-face{
+    transform: rotateY(180deg);
+}
+
