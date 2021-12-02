@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Interior Consultant</h1>
+<h1 align="center">Game of Thrones Memory Card Game</h1>
 
 <div align="center">
   Memory Game to match Game of Thrones Houses <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -25,7 +25,7 @@
 
 ## Overview
 
-![screenshot]https://github.com/atom017/Javascript-MemoryCardGame/blob/main/img/memory%20game.png)
+![screenshot](https://github.com/atom017/Javascript-MemoryCardGame/blob/main/img/memory%20game.png)
 
 ### Built With
 
